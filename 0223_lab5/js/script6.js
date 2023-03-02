@@ -24,7 +24,7 @@ for (let  i = 0; i < years; i++) {
         return;
     } else {
         alert('Enter valid input.') 
-        break;
+        return;
     }
     
 }
