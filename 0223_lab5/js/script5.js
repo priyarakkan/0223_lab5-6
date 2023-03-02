@@ -17,7 +17,7 @@ do {
     //simply reappear until the user enters a valid entry
     again = window.prompt('Repeat entries? (y or n)', 'y');
     if(again == 'y' || again == 'n') {
-        break;
+        return;
     } else {
         alert('Enter valid entry.');
     }

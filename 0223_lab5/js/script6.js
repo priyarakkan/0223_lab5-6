@@ -21,7 +21,7 @@ for (let  i = 0; i < years; i++) {
         document.write(`Interest rate: ${rate.toFixed(2)}%<br>`);
         document.write(`Years: ${years}<br>`);
         document.write(`Future value: $${futureValue.toFixed(2)}`);
-        break;
+        return;
     } else {
         alert('Enter valid input.') 
         break;
